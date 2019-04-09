@@ -9,19 +9,15 @@
     <facet type="java-gradle" name="Java-Gradle">
       <configuration>
         <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/../../../lib/build" />
-        <option name="BUILDABLE" value="true" />
+        <option name="BUILDABLE" value="false" />
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_9">
-    <output url="file://$MODULE_DIR$/../../../lib/build/classes/java/main" />
-    <output-test url="file://$MODULE_DIR$/../../../lib/build/classes/java/test" />
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6">
+    <output url="file://$MODULE_DIR$/../../../lib/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../lib/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../lib">
-      <sourceFolder url="file://$MODULE_DIR$/../../../lib/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../lib/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../lib/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../lib/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../../lib/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../lib/build" />
     </content>
