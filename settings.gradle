@@ -1,1 +1,1 @@
-include ':lib', ':javabase'
+include ':javabase'
